@@ -53,3 +53,10 @@ constructor(
 | `_uniswapV2Router` | Dirección del router de Uniswap V2 (usado para swaps).                                                                                     | `0x9Ac64Cc6e4415144C455BD8E4837Fea55603e5c3` (Sepolia testnet)            |
 | `_bankCap`         | Monto máximo total en USDC que puede tener el banco.                                                                                       | `1000000000000` (equivale a 1,000,000 USDC si el token tiene 6 decimales) |
 
+```
+Ejemplo:
+Para deployar este contrato utilice las siguientes direcciones:
+
+router:0x68b3465833fb72A70ecDF485E0e4C7bD8665Fc45
+
+token usdc de prueba:0x2f3A40A3db8a7e3D09B0adfEfbCe4f6F81927557
